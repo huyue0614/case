@@ -1,0 +1,251 @@
+body,div,p,ul,li,a,img,h1,form,input,hr{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: normal;
+}
+body{
+    font-size: 14px;
+    font-family: "Î¢ÈíÑÅºÚ";
+    color:#343919;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+#warp{
+    width: 1299px;
+    height: 1983px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#top{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+}
+#top p{
+    float: left;
+    color:#0859cc;
+    padding-left:46px;
+}
+#top ul{
+    width: 236px;
+    height: 21px;
+    margin-left: 1018px;
+    padding-top: 8px;
+    overflow: hidden;
+}
+#top ul li{
+    float: left;
+    padding-left: 10px;
+}
+#top ul li a{
+    height: 21px;
+}
+#nav{
+    width: 100%;
+    height:110px;
+    background-color:#264b99;
+    overflow: hidden;
+}
+#nav .logo{
+    width: 260px;
+    height: 55px;
+    padding:27.5px 0px 0px 54px;
+    overflow: hidden;
+    float: left;
+}
+
+#nav .logo img{
+    float: left;
+}
+#nav .logo p{
+    float: left;
+    color:white;
+    padding:7px 0 0 10px;
+    line-height:20px;
+    font-weight: 600;
+}
+#nav ul{
+    width: 901px;
+    height: 110px;
+    line-height: 110px;
+    float: left;
+    overflow: hidden;
+    padding-left: 84px;
+}
+#nav ul li{
+    float: left;
+    width: 115px;
+    height: 110px;
+
+}
+#nav ul li a{
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+#nav ul li a:hover{
+    color:lightgray;
+    background:#3e5fa4;
+}
+#main{
+    width: 100%;
+    height: 335px;
+    color:#052250;
+    text-align: center;
+    padding-top: 165px;
+    background: url("images/Bj.jpg")  no-repeat;
+  background-size:1299px 500px  ;
+}
+#main h1{
+   font-size: 36px;
+    font-weight: bolder;
+    letter-spacing:15px;
+}
+#main p{
+    line-height: 45px;
+    margin: 30px 0;
+}
+#main  input{
+    width: 150px;
+    height: 40px;
+    border: 0px;
+    color: white;
+    margin: 0 25px;
+    background-color:#0c3761;
+}
+#main .fillout{
+    background-color:#fe9900;
+}
+#center{
+    width: 1250px;
+    height: 1030px;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+#center-left{
+    width: 240px;
+    height: 350px;
+    float: left;
+    background-color:#264b99;
+}
+#center-left p{
+    font-size: 16px;
+    color: white;
+    line-height: 30px;
+    letter-spacing: 2px;
+    margin: 38px 0 0 31px;
+}
+#center-left ul{
+    padding:15px 0 0 38px;
+    overflow: hidden;
+}
+#center-left ul li{
+    color: white;
+    margin: 23px 0;
+  overflow: hidden;
+}
+#center-left span{
+    float: left;
+    padding-right:40px ;
+}
+
+#center-right{
+    width: 950px;
+    height: 1000px;
+    float: left;
+    padding:28px 0 0 50px;
+}
+#center-right .Page{
+  color:#8a8c89;
+    padding:0 0 20px 10px;
+}
+#center-right .top{
+    text-indent: 2em;
+}
+#center-right p{
+    font-size: 14px;
+    line-height: 40px;
+}
+#center-right span,#center-right .p{  padding-left: 15px;
+   width: 940px;
+}
+#center-right .img{
+    width: 816px;
+    height: 115px;
+    margin: 15px auto;
+}
+#center-right .img  img{
+    margin-left: 3px;
+    width:194px;
+    height: 115px;
+}
+#footer{
+    width: 100%;
+    height:260px;
+    overflow: hidden;
+}
+#footer .f-t{
+    height: 180px;
+    background-color: #242333;
+    overflow: hidden;
+}
+#footer .f-t form{
+    width: 385px;
+    height: 35px;
+    margin: 80px 0 0 50px;
+    float: left;
+}
+#footer .f-t .t{
+    height: 30px;
+    width: 300px;
+    border: 2px solid #fe9900;
+    float: left;
+    color:#745f68;
+    padding-left: 10px;
+}
+#footer .f-t .b{
+    height: 34px;
+    width: 70px;
+    color: white;
+    float: left;
+    border:0;
+    background-color:#fe9900;
+}
+#footer .f-t p{
+    text-align: right;
+    float: left;
+    color: white;
+    line-height: 33px;
+    margin: 35px 0 0 480px;
+}
+#footer .f-t strong{
+    font-size: 20px;
+}
+#footer .f-t span{
+    font-size: 30px;
+    color: #17b1c9;
+}
+#footer .f-t .er{
+    float:right;
+    text-align: center;
+    color: #94959a;
+    margin: 35px 75px 0 0;
+    line-height: 35px;
+}
+#footer .f-b{
+    text-align: center;
+    height:80px;
+    line-height: 80px;
+    color:#94959a ;
+    background-color: #1f1f2b;
+}
+

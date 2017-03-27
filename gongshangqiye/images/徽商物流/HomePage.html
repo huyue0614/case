@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="HomePageStyle.css" rel="stylesheet" type="text/css">
+    <title>徽商物流有限公司</title>
+    <script>
+        window.onload=function()
+        {
+            var oNav=document.getElementById('nav');
+            var oLi=oNav.getElementsByTagName('li');
+            var oA=oNav.getElementsByTagName('a');
+            oA[1].style.color="grey";
+            var oMain=document.getElementById('main-left');
+            var aMLi=oMain.getElementsByTagName('li');
+            var aMa=oMain.getElementsByTagName('a');
+            aMLi[0].style.border="0";
+            aMLi[0].style.background="blue";
+            aMa[0].style.color="white";
+            aMa[1].style.color="grey";
+            var oFooter=document.getElementById('footer');
+            var fLi=oFooter.getElementsByTagName('li');
+            fLi[5].style.marginRight="0px";
+        }
+    </script>
+</head>
+<body>
+<div id="wrap">
+    <div id="logo">
+        安徽省徽商物流有限公司
+        <span>服务热线：400-00-0000</span>
+    </div>
+
+        <ul id="nav" >
+            <li><a href="#">首页</a></li>
+            <li><a href="#">公司概括</a></li>
+            <li><a href="#">新闻中心</a></li>
+            <li><a href="#">业务介绍</a></li>
+            <li><a href="#">携手共进</a></li>
+        </ul>
+    <div id="h1">
+        <img src="images/concent_03.jpg">
+    </div>
+    <div id="main">
+        <ul id="main-left">
+            <li><a href="#">公司概括</a></li>
+            <li><a href="#">公司介绍</a></li>
+            <li><a href="#">领导致辞</a></li>
+            <li><a href="#">组织架构</a></li>
+            <li><a href="#">下属单位</a></li>
+        </ul>
+
+        <div id="main-right">
+          <h4>公司介绍</h4>
+            <p>
+               "汇通快运"万分强调：在珠峰培训学习，一定要注意预习视频的视频在http://www.zhufengpeixun.com网站上呢
+                先注册一个帐号，然后登录，就可以学习免费的视频了前两周的视频都是免费的，放心看就好了
+                网站的首页左侧有按时间分类的栏，预习的时候先看第一周，尤其是第一周第一天里的补充的视频。前两周的，按时间分类是很清楚的
+                上课前尽量预习一下这个视频：选项卡面板实例（下载地址：http://url.cn/FE0NfG）
+                另外：上课的时候会发很多视频，其中重要的几个分类是：
+                DOM专题（核心基础，必看。网站上也有）
+                数组专题（核心基础，必看。第二周第二天里，网站上有）选项卡面板实例图片延迟加载实例
+            </p>
+        </div>
+    </div>
+     <div id="footer">
+
+             <h4>传真：0551--1234567</h4><br>
+             <h3>电话：0551--1234567</h3><br>
+             <h1>公司地址：合肥市黄山路通和大厦7楼</h1>
+
+         <ul >
+             <li><a href="#">人才招聘</a></li>
+             <li><a href="#">网站地图</a></li>
+             <li><a href="#">联系我们</a></li>
+             <li><a href="#">货物追踪</a></li>
+             <li><a href="#">价格与时效</a></li>
+             <li><a href="#">营业网点</a></li>
+         </ul>
+         <p>Copyright@2004-2012All Right Reserved沪ICP10005645</p>
+     </div>
+</div>
+</body>
+</html>

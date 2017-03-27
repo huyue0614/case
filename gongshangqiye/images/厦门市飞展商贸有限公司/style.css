@@ -1,0 +1,252 @@
+body,div,img,ul,li,a,p,h6,dl,dt,dd,form,input{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+}
+
+#warp{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color: darkgray;
+    font-family: "Î¢ÈíÑÅºÚ";
+    overflow: hidden;
+}
+
+.Logo{
+  width: 1165px;
+    height: 87px;
+    float: left;
+    margin: 20px 200px;
+}
+.Logo img{
+    margin: 0 112px;
+}
+
+#nav{
+    float: left;
+    height: 50px;
+    width: 100%;
+    background-color:#b14337;
+    line-height: 50px;
+
+}
+#nav ul{
+    overflow: hidden;
+    margin: 0 298px;
+    height: 50px;
+    width: 762px;
+
+}
+#nav ul li{
+    float: left;
+    list-style: none;
+    width: 127px;
+    
+}
+#nav ul li a,#product-left ul li a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color:#e2b94d;
+}
+#nav ul li a:hover,#product-left ul li a:hover{
+ background-color:#b11200;
+}
+#main{
+    width:1349px;
+    height: 430px;
+    margin-top: 177px;
+}
+#main img{
+    width: 1349px;
+}
+#product{
+    height: 520px;
+    width: 1349px;
+}
+.product_1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+    color:#333333;
+    font-weight: bold;
+}
+.product_2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+#product-center{
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    margin: 0 195px;
+}
+#product-left{
+   width: 175px;
+    height: 425px;
+    float: left;
+}
+#product-left ul{
+    height: 397px;
+    background-color:#ac3629 ;
+}
+#product-left ul li{
+    height:60px;
+    line-height: 56px;
+    border-bottom: 1px dotted #e2b94d;
+
+}
+#product-left ul li a{
+    height: 60px;
+}
+#product-left .bottom{
+    border:0px;
+}
+#product-right{
+    width: 780px;
+    height: 430px;
+    overflow: hidden;
+    margin-left:10px ;
+    float: left;
+}
+#product-right div{
+    float: left;
+    margin-left: 10px;
+    overflow: hidden;
+
+
+}
+#product-right div img{
+    width: 184px;
+    height: 181px;
+}
+
+#product-right div p{
+    margin: 10px 0;
+    text-align: center;
+}
+#product-right .bottom p
+{
+    margin: 10px 0 0 0;
+}
+#about{
+    width: 100%;
+    height:435px;
+    background-color:#ad473c;
+    overflow: hidden;
+}
+#about p{
+    text-align: center;
+    margin: 50px 0;
+    line-height: 35px;
+    font-size: 16px;
+    color: aliceblue;
+}
+#our{
+
+    width: 100%;
+    height: 870px;
+    overflow: hidden;
+}
+#center{
+    width: 900px;
+    height: 730px;
+    margin: 20px auto 0;
+}
+#our  .img{
+
+    width:440px;
+    height: 168px;
+    float: left;
+    margin: 7px 0;
+
+}
+#our  .img img{
+    width: 440px;
+    height: 168px;
+
+
+
+}
+#our  .text{
+    width:395px;
+    height: 160px;
+    float: left;
+    margin: 7px 15px;
+    font-size: 12px;
+    padding-top: 8px;
+}
+#our  .text h6{
+    font-weight:100;
+    font-size: 18px;
+    margin: 15px 0;
+}
+#our  .text p{
+    line-height: 20px;
+}
+#contact {
+    width: 100%;
+    height: 400px;
+}
+#contact-center{
+    overflow: hidden;
+    width:920px;
+    color: black;
+    margin: 30px auto 0;
+}
+.contact-left{
+    width:250px;
+    height: 310px;
+    float: left;
+}
+.contact-left dl{
+    margin-top: 40px;
+    line-height: 30px;
+}
+.contact-left dl dt{
+    font-size: 22px;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 10px ;
+
+}
+.contact-left dl dd{
+    text-align: center;
+}
+.contact-right{
+    float: left;
+    width: 602px;
+    height: 305px;
+    padding-left: 20px;
+}
+#order{
+    width: 100%;
+    height:475px;
+}
+#order form{
+    text-align: center;
+    padding-top: 50px;
+}
+#order form input{
+    width:300px;
+    height: 30px;
+    border: 1px solid darkgray;
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+#footer{
+    margin-top: 30px;
+    height: 50px;
+    width: 100%;
+    line-height: 20px;
+    background-color:#e4e3e3;
+}
+#footer p{
+    text-align: center;
+    padding-top: 8px;
+    color: black;
+
+}

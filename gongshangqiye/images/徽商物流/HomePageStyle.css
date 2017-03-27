@@ -1,0 +1,128 @@
+body,div,span,ul,li,h6,h1,h3,h4,p,img,h4{
+    margin: 0;
+    padding:0;
+
+}
+body{
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 14px;
+}
+#wrap{
+
+    width: 960px;
+    height:1260px;
+    background:white;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#logo{
+    font-size:30px;
+    font-weight: bold;
+    margin: 60px;
+}
+span{
+    padding-left: 120px;
+}
+#nav{
+    background-image: url("images/nav_02.jpg");
+    list-style: none;
+}
+#nav{
+    list-style: none;
+    overflow: hidden;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 60px;
+
+}
+#nav li{
+    float: left;
+    margin: 0 50px;
+
+
+}
+#nav li a {
+    font-size: 18px;
+    font-weight: 600;
+    color:  aqua;
+    text-decoration: none;
+}
+#h1 img{
+    width: 840px;
+    margin: 0 60px;
+}
+#main{
+    width: 840px ;
+    height: 430px;
+    margin: 80px 0 0 60px;
+   overflow: hidden;
+    border-bottom: 3px solid aqua;
+
+}
+#main-left{
+    list-style: none;
+    width: 300px;
+    height: 400px;
+    float: left;
+
+}
+#main-left li{
+    width: 235px;
+    height:70px;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+#main-left li a{
+    line-height: 80px;
+    font-size: 34px;
+    color: aqua;
+    text-decoration: none;
+}
+#main-right{
+    width:540px;
+    height: 400px;
+    margin-left: 302px;
+}
+#main-right h4{
+    height: 65px;
+    line-height: 65px;
+    padding-left:50px;
+    font-size: 30px;
+    color: aqua;
+    border-bottom:3px solid aqua;
+    -moz-border-bottom-colors: aqua white;
+}
+#main-right p{
+    padding-top: 30px;
+    color: steelblue;
+    font-size: 16px;
+    text-indent: 2em;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+#footer{
+    height: 180px;
+    text-align: right;
+    padding: 40px 60px 0 60px;
+}
+
+#footer ul{
+    list-style: none;
+    overflow: hidden;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 378px;
+    margin-top: 10px;
+}
+#footer ul li{
+    float: left;
+    margin: 0 10px;
+}
+#footer ul li a{
+    text-decoration: none;
+    color: aqua;
+}
+#footer p{
+    color: aqua;
+}
+
